@@ -2,7 +2,12 @@
 
 Enhanced video controls and clean interface for EDX learning platform.
 
+
 ![EDX Video Widget Interface](diagram.png)
+
+## About
+
+I love edX's collaboration with institutions to provide education for all—kudos to them. However, the platform's tech quality has room for improvement. This extension addresses some flaws, such as the distracting control bar below lecture videos, which constantly shows progress and ticking time (reminiscent of Gen Alpha needing side distractions like Subway Surfer to focus). It also hides persistent upgrade popups that feel like harassment rather than revenue requests. Ultimately, do we really need a certificate to prove learning? If you've truly absorbed the material, that knowledge shines through without a digital paper.
 
 ## Features
 - **Control bar toggle & quick access** - Show/hide video controls with quick play/pause, fullscreen, and subtitle access
@@ -37,6 +42,7 @@ Horizontal button row in bottom-right corner:
 If the extension doesn't work:
 1. When in doubt, refresh the EDX page (primarily because of disabling the popup, known issue.)
 2. PR for a hotfix
+3. Honestly there are more things to fix around iframe and UX. But this is the workable version for me for now. Good luck locking in.
 
 ## License
 
