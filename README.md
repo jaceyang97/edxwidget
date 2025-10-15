@@ -37,3 +37,7 @@ Horizontal button row in bottom-right corner:
 If the extension doesn't work:
 1. When in doubt, refresh the EDX page (primarily because of disabling the popup, known issue.)
 2. PR for a hotfix
+
+## License
+
+MIT
