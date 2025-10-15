@@ -42,7 +42,6 @@ Horizontal button row in bottom-right corner:
 If the extension doesn't work:
 1. When in doubt, refresh the EDX page (primarily because of disabling the popup, known issue.)
 2. PR for a hotfix
-3. Honestly there are more things to fix around iframe and UX. But this is the workable version for me for now. Good luck locking in.
 
 ## License
 
