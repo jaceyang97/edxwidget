@@ -33,5 +33,5 @@ Horizontal button row in bottom-right corner:
 ## Troubleshooting
 
 If the extension doesn't work:
-1. Simply Refresh the EDX page (primarily because of disabling the popup)
-2. Contact me for a hotfix
+1. When in doubt, refresh the EDX page (primarily because of disabling the popup, known issue.)
+2. PR for a hotfix
