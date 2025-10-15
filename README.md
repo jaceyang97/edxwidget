@@ -2,6 +2,8 @@
 
 Enhanced video controls and clean interface for EDX learning platform.
 
+![EDX Video Widget Interface](diagram.png)
+
 ## Features
 - **Control bar toggle & quick access** - Show/hide video controls with quick play/pause, fullscreen, and subtitle access
 - **Better subtitles** - 5 size options (20px to 36px), single line, closer to bottom
