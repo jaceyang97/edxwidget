@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "EDX Video Widget",
+  "version": "1.0",
+  "description": "Enhanced video controls and clean interface for EDX learning platform",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": ["storage", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.edx.org/*",
+        "*://*.edx-cdn.org/*",
+        "*://courses.edx.org/*",
+        "*://cdn.cohesionapps.com/*"
+      ],
+      "css": ["content.css"],
+      "js": ["content.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
+

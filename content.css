@@ -1,0 +1,80 @@
+/* Hide notification sidebar by default on page load */
+#course-sidebar {
+  display: none !important;
+}
+
+/* Hide toggle button */
+#toggle-button {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Hide modal popups completely (pure CSS, no JavaScript, no freezing) */
+#paragon-portal-root > div.pgn__modal-layer,
+#paragon-portal-root .pgn__modal-layer,
+.pgn__modal-layer,
+.pgn__modal-backdrop,
+div[role="dialog"][aria-label*="verified certificate" i],
+div[role="dialog"][aria-label*="upgrade" i] {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Remove the overlay/backdrop when modal appears */
+body:has(.pgn__modal-layer) {
+  overflow: auto !important;
+}
+
+/* Ensure page scrolling works even if modal CSS is applied */
+html, body {
+  overflow-y: auto !important;
+}
+
+/* Position video subtitles/captions near the bottom */
+div.closed-captions,
+div.closed-captions.is-visible,
+.video-wrapper .closed-captions {
+  top: auto !important;
+  bottom: 80px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: auto !important;
+  max-width: 95% !important;
+  text-align: center !important;
+  font-size: 24px !important;
+  line-height: 1.5 !important;
+  white-space: nowrap !important;
+  overflow: visible !important;
+}
+
+/* When controls are hidden, move captions even lower */
+body .closed-captions.is-visible {
+  bottom: 20px !important;
+}
+
+/* Make caption text larger and more readable - single line */
+div.closed-captions span,
+div.closed-captions p,
+div.closed-captions div {
+  font-size: 24px !important;
+  line-height: 1.5 !important;
+  font-weight: 500 !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8) !important;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  padding: 4px 12px !important;
+  border-radius: 4px !important;
+  white-space: nowrap !important;
+  display: inline-block !important;
+  max-width: none !important;
+}
+
+/* Hide subtitle drag handle (three dots) */
+div.closed-captions::before,
+div.closed-captions .draggable,
+div.closed-captions [class*="drag"],
+div.closed-captions button,
+.closed-captions-draggable-handle {
+  display: none !important;
+  visibility: hidden !important;
+}
+
